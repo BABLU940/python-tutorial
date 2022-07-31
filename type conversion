@@ -1,0 +1,9 @@
+# type conversion
+
+old_age = input("enter the old age : ")
+new_age = int(old_age) + 10
+print(new_age)
+number=23
+print(float(23))
+print(str(number))
+print(bool(number))
