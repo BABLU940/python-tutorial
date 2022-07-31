@@ -1,5 +1,18 @@
 #taking input from  user
+
 name = input("what is your name?")
 print("hello" +  name)
 hero = input("who are your superhero")
 print(hero)
+
+x,y,ch=input("enter the number").split()     #one line many type input.
+x=int(x)
+y=float(y)
+print("%d $ %.2f $ %c"%(x,y,ch))            # one line many type output.
+n,m=map(float,input("enter the numbers").split())
+print("%.2f %.2f"%(n,m))
+a=input("enter the first  number for sum : ")
+b=input("enter the second number for sum : ")
+c= int(a)+int(b)
+print("sum of two number is :" , c)
+print("sum of two number is :" + str(c
