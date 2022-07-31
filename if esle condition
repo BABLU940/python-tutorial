@@ -1,0 +1,40 @@
+# if-else condition
+h=5
+k=10
+if(h<k):
+    print("H is greater number")
+else:
+    print("k is the greater number")
+p=input("enter the number:")
+q=input("enter the number:")
+s=input("enter the number:")
+if(p>q):
+    R=(int(p)+int(q))
+    print(R)
+else:
+    R=(int(p)-int(q))
+    print(R)
+if(p>q):
+    if(p>s):
+        print("p is the greater number")
+    else:
+        print("S is the greater number ")
+else:
+    if(q>s):
+        print("Q is the greater number")
+    else:
+        print("S is the greater number")
+        
+#nested if_else condition
+
+my_age = int(input("enter your age"))
+if my_age >=18:
+    print("you are an adult")
+    print("you can give vote")
+elif my_age<18 and my_age >=15:
+    print("you are in high edu")
+elif my_age<15 and my_age >=5:
+    print("you are student in school")
+    print("enjoy the school life")
+else:
+    print("you are a child")
