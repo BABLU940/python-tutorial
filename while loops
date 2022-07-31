@@ -1,0 +1,30 @@
+t=int(input("enter the number:"))
+while(t>0): #checking condition(not using infinite loop )
+    print("hello")
+    t=t-1 #update condition
+while(t<=10): # count number
+    print(t)
+    print(t * "hello")
+    t=t+1
+    
+while(t<=10): #print trinagle *
+    print(t * "*")
+    t=t+1
+while(t>=1): #print opp. tring. *
+    print(t * "*") 
+    t=t-1
+x=12345667
+rev=0
+while x!=0:
+    rev=rev*10+x%10
+    x=x//10
+    print(rev)
+    
+# reverse an integer 
+m=int(input("enter the number for reverse integer "))
+rev=0
+while m!=0:
+    rev=rev*10 + m%10
+    m=(m//10)
+print(rev)
+
