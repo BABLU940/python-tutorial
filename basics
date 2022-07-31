@@ -1,0 +1,27 @@
+print("hello world")
+print(" i know how to count .. 1 2 3 4 5 ..")
+
+# single line comment
+#'''multline comment''' or """"""
+ 
+ 
+# data_variable
+
+name = "raj"
+age = 21
+name ="mohit"
+is_adult = True
+print(age)
+print(name)
+person_name = "Tony_Stark"
+Tony_age =51
+print(person_name)
+print(Tony_age)
+print("Tony is a genius")
+first_name = "Tony"
+last_name = "Stark"
+print(first_name + " " + last_name)
+Tony_age =51
+print(Tony_age)
+is_adult = "Tony is a genius."
+print(is_adult)
