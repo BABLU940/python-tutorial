@@ -1,0 +1,17 @@
+
+# range of number
+
+numbers=range(1)
+print(numbers)
+for i in range(5):
+    print(i)
+for i in range(10):
+    print(i+1)
+    print("hello")
+for i in range(10):
+    print(i * "*")
+    i=i+1
+for i in range(5):
+    for j in range(5):
+        print(i * "*")
+        i=i-1
