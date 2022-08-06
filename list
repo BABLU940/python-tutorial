@@ -1,0 +1,22 @@
+#list(list is complex type in python & mutable(changeable))
+friends=["aman","ram","mohan"]
+print(friends[-1])
+print(friends)
+
+marks = [95,88.5,70.9,65.3,89] #write integer/float /string type
+marks.append(78) # add in list end
+marks.insert(3,78) #add in list  who give the index number
+print(marks[0:6])
+print(98 in marks) #check in marks
+for score in marks:
+    print(score)
+    
+print(len(marks)) #length of marks in list
+marks = [95,88.5,70.9,65.3,89]
+
+l=0
+while l < len(marks):
+    print(marks[l])
+    l =l+1
+marks.clear() # clear of marks list
+print(marks)
