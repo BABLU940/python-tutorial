@@ -1,0 +1,70 @@
+l1=['a','b','c','d','e']
+print(l1[::-4])
+print(l1[-5: :-2])
+print('b' in l1)
+print('x' not in l1)
+l1=l1+['x','y','w','t']# adding l1 elemnt in python
+print(l1)
+print(l1*3)
+print (min(l1))
+print(max(l1))
+
+li=['a',1,['bb','ccd','dddd'],3,['abb',['xyz','pqr']]]
+print(len(li))
+print(len(li[2]))
+print(len(li[4][1][1]))
+print(li[4][1][1])
+print(li[2][2])
+print(li[2][2][1])
+print(li[2][-2])
+
+l1=['a','b',1,2,'abc']
+l2="mohitsingh"
+print(l1)
+l1[-1]=100
+print(l1)
+print(l1[1:4])
+l1[1:4]=[10000]
+print(l1)
+del l1[0]
+print(l1)
+l1=[1,2]+l1
+print([1,2]+l1)
+print(l1)
+l1.append("abcd")
+print(l1)
+l1.pop(2)
+var=l1.pop(1)
+print(l1)
+nums=set([1,1,5,6,6,6,4,4])
+print(len(nums))
+
+
+
+
+output:-
+['e', 'a']
+['a']
+True
+True
+['a', 'b', 'c', 'd', 'e', 'x', 'y', 'w', 't']
+['a', 'b', 'c', 'd', 'e', 'x', 'y', 'w', 't', 'a', 'b', 'c', 'd', 'e', 'x', 'y', 'w', 't', 'a', 'b', 'c', 'd', 'e', 'x', 'y', 'w', 't']
+a
+y
+5
+3
+3
+pqr
+dddd
+d
+ccd
+['a', 'b', 1, 2, 'abc']
+['a', 'b', 1, 2, 100]
+['b', 1, 2]
+['a', 10000, 100]
+[10000, 100]
+[1, 2, 1, 2, 10000, 100]
+[1, 2, 10000, 100]
+[1, 2, 10000, 100, 'abcd']
+[1, 100, 'abcd']
+4
