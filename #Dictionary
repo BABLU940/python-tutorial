@@ -1,0 +1,31 @@
+#Dictionary :-stores a (key,value) pair sets
+ipl_team={}
+print(type(ipl_team))
+ipl_team['mumbai']="ROHIT"
+ipl_team['delhi']=["AMAN","RAKHI","SONA"]
+print(ipl_team)
+ipl_team[4]="mumbai indians"
+print(ipl_team)
+print(ipl_team['mumbai'])
+print(ipl_team['delhi'][2])
+del ipl_team[4]
+print(ipl_team)
+number={4:'d',3:'c',5:'e',0:'a',1:'b'}
+print(number[5])
+print(len(number))
+number.clear()
+print(number.get(4))
+print(number.get(10,"key is not present"))
+print(number.items())
+print(number.keys())
+print(number.values())
+print(number.pop(5,"key is not present"))
+print(number)
+#print(number.popitem(1))
+print(number)
+marks = {"basis_of computer": 98,"c_language":95,"math":92,"pom":82,"co":78}
+print(marks["math"])
+marks["english"]=95 #add marks in dictionary
+print(marks)
+marks["pom"]=98 #existing marks change 
+print(marks)
